@@ -1,3 +1,5 @@
+//Michelle Daphne Langitan - 2702221425
+
 package exercise;
 import java.util.Date;
 
@@ -15,7 +17,7 @@ public class DecomposeConditional {
 			this.winterServiceCharge = service;
 		}
 		  
-		// testtttttttt
+	
 		public double getTicketPrice(Date date, int quantity) {
 			if (isWinterSeason(date)) {
 				return calculateWinterCharge(quantity);
